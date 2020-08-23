@@ -4,6 +4,8 @@ Well, usually there's a download button on the audio page, but what to do if dir
 
 You just use **this**.
 
+You can also read the [Russian README](README-RU.md).
+
 ## Requirements
 
 - ![(Python 3+)](https://img.shields.io/badge/Python-3+-blue.svg)
