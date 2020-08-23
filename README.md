@@ -1,6 +1,6 @@
 # Newgrounds Audio Downloader ![(Python 3+)](https://img.shields.io/badge/Python-3+-blue.svg)
 
-Well, actually sometimes there's a download button on the audio page, but what to do if direct downloads are not allowed by the creator even though you love this song too much?
+Well, usually there's a download button on the audio page, but what to do if direct downloads are not allowed by the creator even though you love this song too much?
 
 You just use **this**.
 
