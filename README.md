@@ -24,7 +24,3 @@ Options:
   -d, --dist PATH  Where to save the songs (default: ./Downloads)
   --help           Show this message and exit.
 ```
-
-## ※NOTE!
-
-Please note that you can download the songs named with *latin symbols only*. I'll fix it later so just for now bear with what we have. :3

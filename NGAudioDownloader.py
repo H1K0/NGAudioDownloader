@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup as parse
 import click
 from sys import stdout
 
+
 @click.command()
 @click.argument('songid',nargs=1,metavar='<Newgrounds song ID>')
 @click.option('-d','--dist',default='./Downloads',type=click.Path(exists=True),help='Where to save the songs (default: ./Downloads)')
@@ -13,21 +14,15 @@ def CLI(songid,dist):
 	page=parse(load(f'https://www.newgrounds.com/audio/listen/{songid}').text,'html.parser')
 	songTitle=page.find('title').text
 
-	print('Creating download link...')
-	link=f'http://audio.ngfiles.com/{songid[:3]}000/{songid}_'
-	count=0
-	for char in songTitle:
-		if 97<=ord(char.lower())<=122:
-			link+=char
-			count+=1
-		elif char==' ':
-			link+='-'
-			count+=1
-		if count==26: break
-	link+='.mp3'
+	print('Searching download link...')
+	link='http://audio.ngfiles.com/'
+	page=str(page)
+	i=page.find('audio.ngfiles.com')+len('audio.ngfiles.com/')
+	while not link.endswith('.mp3'):
+		if page[i]!='\\': link+=page[i]
+		i+=1
 
 	if not access(dist,F_OK): mkdir(dist)
-
 	print(f'Downloading "{songTitle}"...')
 	download(link,dist)
 	print(f'"{songTitle}" successfully downloaded.')
