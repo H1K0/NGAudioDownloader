@@ -16,8 +16,10 @@ Or you just use the [`NGAudioDownloader.exe`](NGAudioDownloader.exe) so all you 
 
 ## Usage
 
-![Start screen shot](https://i.ibb.co/Vw0LDLQ/2020-08-23-22-41-13-Newgrounds-Audio-Downloader.png)
-
-![ProgressBar dialog](https://i.ibb.co/PFqNFVF/2020-08-23-22-42-21-Downloading-Mysterious-Planet.png)
-
 It's easy as pie. You just run the downloader, enter your song ID and your file is being downloaded!
+
+## Screenshots
+
+![Start screen shot](https://i.ibb.co/rFGPM8x/2020-08-23-23-10-48-Newgrounds-Audio-Downloader.png)
+
+![ProgressBar dialog](https://i.ibb.co/6tV9cjH/2020-08-23-23-12-03-Downloading-Mysterious-Planet.png)
