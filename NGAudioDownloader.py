@@ -6,12 +6,17 @@ from sys import stdout
 
 
 @click.command()
-@click.argument('songid',nargs=1,metavar='<Newgrounds song ID>')
+@click.argument('songs',nargs=-1,metavar='<SongID [SongID [...]]>')
 @click.option('-d','--dist',default='./Downloads',type=click.Path(exists=True),help='Where to save the songs (default: ./Downloads)')
-def CLI(songid,dist):
+def CLI(songs,dist):
 	"""===== Newgrounds Audio Downloader by H1K0 ====="""
-	print('Loading HTML...')
-	page=parse(load(f'https://www.newgrounds.com/audio/listen/{songid}').text,'html.parser')
+	for song in songs:
+		download(song,dist)
+
+
+def download(songID,dist):
+	print(f'Loading https://www.newgrounds.com/audio/listen/{songID}...')
+	page=parse(load(f'https://www.newgrounds.com/audio/listen/{songID}').text,'html.parser')
 	songTitle=page.find('title').text
 
 	print('Searching download link...')
@@ -24,11 +29,6 @@ def CLI(songid,dist):
 
 	if not access(dist,F_OK): mkdir(dist)
 	print(f'Downloading "{songTitle}"...')
-	download(link,dist)
-	print(f'"{songTitle}" successfully downloaded.')
-
-
-def download(link,dist):
 	BARLEN=50
 	with open(f'{dist}/{link.split("/")[-1]}','wb') as out:
 		file=load(link,stream=True)
@@ -43,6 +43,8 @@ def download(link,dist):
 			stdout.write(f'\r[{"█"*done}{"·"*(BARLEN-done)}]')
 			stdout.flush()
 	print()
+	print(f'"{songTitle}" successfully downloaded.')
 
 
-if __name__=='__main__': CLI()
+if __name__=='__main__':
+	CLI()
