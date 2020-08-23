@@ -9,27 +9,22 @@ You just use **this**.
 - ![(Python 3+)](https://img.shields.io/badge/Python-3+-blue.svg)
 - `requests` library
 - `bs4` library
+- `click` library
 
 Or you just use the [`NGAudioDownloader.exe`](NGAudioDownloader.exe) so all you need is ![Windows XP+](https://img.shields.io/badge/Windows-XP+-brightgreen.svg).
 
 ## Usage
 
-Just run the code and enter the Newgrounds ID of the song you wanna download. That's all.
-
-_Example:_
-
 ```
-$ python .\NGAudioDownloader.py
+$ NGAudioDownloader.py [OPTIONS] <Newgrounds song ID>
 
-Enter song id: 807461
-Loading HTML...
-Creating download link...
-Downloading "Mysterious Planet"...
-Mysterious Planet successfully downloaded.
+  ===== Newgrounds Audio Downloader by H1K0 =====
+
+Options:
+  -d, --dist PATH  Where to save the songs (default: ./Downloads)
+  --help           Show this message and exit.
 ```
 
-Your downloads will appear in the `Downloads` folder.
-
-## NOTE!
+## ※NOTE!
 
 Please note that you can download the songs named with *latin symbols only*. I'll fix it later so just for now bear with what we have. :3
