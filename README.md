@@ -7,6 +7,7 @@ You just use **this**.
 ## Requirements
 
 - ![(Python 3+)](https://img.shields.io/badge/Python-3+-blue.svg)
+- `PyQt5` library
 - `requests` library
 - `bs4` library
 - `click` library
@@ -15,12 +16,6 @@ Or you just use the [`NGAudioDownloader.exe`](NGAudioDownloader.exe) so all you 
 
 ## Usage
 
-```
-$ NGAudioDownloader.py [OPTIONS] <Newgrounds song ID>
+![Start screen shot](https://i.ibb.co/X2dRVTS/2020-08-23-19-39-14-Newgrounds-Audio-Downloader.png)
 
-  ===== Newgrounds Audio Downloader by H1K0 =====
-
-Options:
-  -d, --dist PATH  Where to save the songs (default: ./Downloads)
-  --help           Show this message and exit.
-```
+It's easy as pie. You just run the downloader, enter your song ID and your file is being downloaded!
