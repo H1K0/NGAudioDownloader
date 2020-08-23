@@ -23,3 +23,7 @@ It's easy as pie. You just run the downloader, enter your song ID and your file 
 ![Start screen shot](https://i.ibb.co/rFGPM8x/2020-08-23-23-10-48-Newgrounds-Audio-Downloader.png)
 
 ![ProgressBar dialog](https://i.ibb.co/6tV9cjH/2020-08-23-23-12-03-Downloading-Mysterious-Planet.png)
+
+![Download completion notification](https://i.ibb.co/bbsTVDH/2020-08-23-23-59-51-ACHTUNG.png)
+
+![Incorrect input / ERROR 404 notification](https://i.ibb.co/LzygXPd/2020-08-24-00-01-48-ACHTUNG.png)
