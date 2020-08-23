@@ -2,6 +2,7 @@ from os import access,F_OK,mkdir
 from requests import get as load
 from bs4 import BeautifulSoup as parse
 import click
+from sys import stdout
 
 @click.command()
 @click.argument('songid',nargs=1,metavar='<Newgrounds song ID>')
@@ -22,17 +23,31 @@ def CLI(songid,dist):
 		elif char==' ':
 			link+='-'
 			count+=1
-		if count==26:
-			break
+		if count==26: break
 	link+='.mp3'
 
-	if not access(dist,F_OK):
-		mkdir(dist)
+	if not access(dist,F_OK): mkdir(dist)
 
 	print(f'Downloading "{songTitle}"...')
-	with open(f'{dist}/{link.split("/")[-1]}','wb') as out:
-		out.write(load(link).content)
-	print(f'{songTitle} successfully downloaded.')
+	download(link,dist)
+	print(f'"{songTitle}" successfully downloaded.')
 
-if __name__=='__main__':
-	CLI()
+
+def download(link,dist):
+	BARLEN=50
+	with open(f'{dist}/{link.split("/")[-1]}','wb') as out:
+		file=load(link,stream=True)
+		total=file.headers.get('content-length')
+		if total is None: total=-1
+		else: total=int(total)
+		downloaded=0
+		for data in file.iter_content(chunk_size=max(total//BARLEN,1024)):
+			downloaded+=len(data)
+			out.write(data)
+			done=BARLEN*downloaded//total
+			stdout.write(f'\r[{"█"*done}{"·"*(BARLEN-done)}]')
+			stdout.flush()
+	print()
+
+
+if __name__=='__main__': CLI()
