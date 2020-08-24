@@ -10,6 +10,24 @@
     <height>150</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>150</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>150</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>ACHTUNG!</string>
   </property>
@@ -28,12 +46,12 @@
    </property>
    <property name="font">
     <font>
-     <family>Century Gothic</family>
+     <family>Maiandra GD</family>
      <pointsize>16</pointsize>
     </font>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>ACHTUNG!</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>

@@ -1,10 +1,10 @@
-# Newgrounds Audio Downloader ![(Python 3+)](https://img.shields.io/badge/Python-3+-blue.svg) ![Windows XP+](https://img.shields.io/badge/Windows-XP+-brightgreen.svg)
+# [Newgrounds](https://newgrounds.com) Audio Downloader ![(Python 3+)](https://img.shields.io/badge/Python-3+-blue.svg) ![Windows XP+](https://img.shields.io/badge/Windows-XP+-brightgreen.svg)
 
 Well, usually there's a download button on the audio page, but what to do if direct downloads are not allowed by the creator even though you love this song too much?
 
 You just use **this**.
 
-You can also read the [Russian README](README-RU.md).
+You can also read the [Russian README](README-RU.md) or [Japanese README](README-JP.md).
 
 ## Requirements
 
@@ -20,12 +20,14 @@ Or you just use the [`NGAudioDownloader.exe`](NGAudioDownloader.exe) so all you 
 
 It's easy as pie. You just run the downloader, enter your song ID and your file is being downloaded!
 
-## Screenshots
+### Shortcuts
 
-![Start screen shot](https://i.ibb.co/rFGPM8x/2020-08-23-23-10-48-Newgrounds-Audio-Downloader.png)
+- `Enter` starts download
+- `Alt + S` calls settings dialog
+- `F1` calls help
 
-![ProgressBar dialog](https://i.ibb.co/6tV9cjH/2020-08-23-23-12-03-Downloading-Mysterious-Planet.png)
+### Screenshots
 
-![Download completion notification](https://i.ibb.co/bbsTVDH/2020-08-23-23-59-51-ACHTUNG.png)
+![Start screen shot](https://i.ibb.co/qr366Xb/2020-08-24-16-41-06-Newgrounds-Audio-Downloader.png)
 
-![Incorrect input / ERROR 404 notification](https://i.ibb.co/LzygXPd/2020-08-24-00-01-48-ACHTUNG.png)
+![Settings dialog](https://i.ibb.co/dkzb5jN/2020-08-24-16-41-14-Settings.png)

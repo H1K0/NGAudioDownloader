@@ -1,4 +1,4 @@
-# Newgrounds Audio Downloader ![(Python 3+)](https://img.shields.io/badge/Python-3+-blue.svg) ![Windows XP+](https://img.shields.io/badge/Windows-XP+-brightgreen.svg)
+# [Newgrounds](https://newgrounds.com) Audio Downloader ![(Python 3+)](https://img.shields.io/badge/Python-3+-blue.svg) ![Windows XP+](https://img.shields.io/badge/Windows-XP+-brightgreen.svg)
 
 _Или по-славянски: качалка музлишка с ньюграундс._
 
@@ -6,7 +6,7 @@ _Или по-славянски: качалка музлишка с ньюгра
 
 Однако времена меняются, и теперь даже забаненные песенки можно скачать с помощью **этой самой проги**.
 
-При желании можно почитать [редмишку для ~~пендосов~~ инглишменов](README.md).
+При желании можно почитать [ридмишку для пендосов и инглишменов](README.md) или [ридмишку для япошек](README-JP.md).
 
 ## Требования
 
@@ -22,12 +22,14 @@ _Или по-славянски: качалка музлишка с ньюгра
 
 Проще пареной репы. Тупо запускаешь код, вбиваешь айдишник трека и — вуаля! — скачивание пошло!
 
-## Скрины
+### Горячие клавиши
 
-![Стартовый экран](https://i.ibb.co/rFGPM8x/2020-08-23-23-10-48-Newgrounds-Audio-Downloader.png)
+- `Enter` запускает скачивание
+- `Alt + S` вызывает диалог настроек
+- `F1` вызывает ~~скорую~~ помощь
 
-![Диалог с прогрессбаром](https://i.ibb.co/6tV9cjH/2020-08-23-23-12-03-Downloading-Mysterious-Planet.png)
+### Скрины
 
-![Уведомление о завершении скачивания](https://i.ibb.co/bbsTVDH/2020-08-23-23-59-51-ACHTUNG.png)
+![Стартовый экран](https://i.ibb.co/8Y4FMDP/2020-08-24-16-43-16-Newgrounds-Audio-Downloader.png)
 
-![Уведомление о некорректном вводе / ERROR 404](https://i.ibb.co/LzygXPd/2020-08-24-00-01-48-ACHTUNG.png)
+![Диалог настроек](https://i.ibb.co/RSXvxDh/2020-08-24-16-43-28.png)
