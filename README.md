@@ -4,7 +4,7 @@ Well, usually there's a download button on the audio page, but what to do if dir
 
 You just use **this**.
 
-You can also read the [Russian README](README-RU.md) or [Japanese README](README-JP.md).
+You can also read the [Russian README](README-RU.md#newgrounds-audio-downloader--) or [Japanese README](README-JP.md#newgrounds-audio-downloader--).
 
 ## So, what do I actually need?
 
@@ -20,13 +20,13 @@ Or you just use the `.exe` file from [`NGAudioDownloader.zip`](NGAudioDownloader
 
 ### Common way
 
-You just download [`NGAudioDownloader.zip`](NGAudioDownloader.zip), extract it somewhere and run the `NGAudioDownloader.exe`.
+You just download [`NGAudioDownloader.zip`](https://github.com/H1K0/NGAudioDownloader/raw/master/NGAudioDownloader.zip), extract it somewhere and run the `NGAudioDownloader.exe`.
 
 <big>※NOTE:</big> if you want this downloader working correctly **DO NOT move/delete** any files extracted from the archive!
 
 ### Pythonist's way
 
-You just download *the whole repository* and run [`NGAudioDownloader.py`](NGAudioDownloader.py). That's all. :3
+You just download *the whole repository* and run `NGAudioDownloader.py`. That's all. :3
 
 ## What should I do?
 

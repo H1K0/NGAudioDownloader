@@ -4,7 +4,7 @@
 
 **コイツ**を使うんだ。
 
-後、[英語](README.md)と[ロシア語](README-RU.md)のREADMEもある。
+後、[英語](README.md#newgrounds-audio-downloader--)と[ロシア語](README-RU.md#newgrounds-audio-downloader--)のREADMEもある。
 
 ## 必要な物とは？
 
@@ -20,13 +20,13 @@
 
 ### 一般人の方(法)
 
-ま、[`NGAudioDownloader.zip`](NGAudioDownloader.zip)をダウンロードして、ソイツをどっかで解凍して、`NGAudioDownloader.exe`を実行させるだけ。
+ま、[`NGAudioDownloader.zip`](https://github.com/H1K0/NGAudioDownloader/raw/master/NGAudioDownloader.zip)をダウンロードして、ソイツをどっかで解凍して、`NGAudioDownloader.exe`を実行させるだけ。
 
 <big>※注意：</big>コイツに時計のように正常に作動して欲しいってんなら、絶対に、アーカイブから抽出されたファイルを**移動／削除したりすんじゃねえぞ**！
 
 ### Pythonistの方(法)
 
-ま、*リポジトリ全体*をダウンロードして、[`NGAudioDownloader.py`](NGAudioDownloader.py)を実行だ。はい、終了～！
+ま、*リポジトリ全体*をダウンロードして、`NGAudioDownloader.py`を実行だ。はい、終了～！
 
 ## 待って、これどうすんの？
 
