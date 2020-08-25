@@ -26,9 +26,9 @@
 
 ### Pythonistの方(法)
 
-ま、*リポジトリ全体*をダウンロードして、`NGAudioDownloader.py`を実行だ。はい、終了～！
+ま、[リポジトリ全体をダウンロード](https://github.com/H1K0/NGAudioDownloader/archive/master.zip)して、`NGAudioDownloader.py`を実行だ。はい、終了～！
 
-## 待って、これどうすんの？
+## で、後はどうするの？
 
 簡単なもんやろ。コイツを実行して、NSI(*Newgrounds song ID*)を入力して、`Enter`ボタン押して、ダウンロード開始だ！
 
@@ -38,8 +38,6 @@
 - `Alt + S`で設定画面を開く
 - `F1`でヘルプを読む
 
-### で、画面はどうなってんだい？
+## あのー、なんかビデオガイドとかないんですかー？
 
-![スタート画面](https://i.ibb.co/pJpVMRS/2020-08-24-16-45-40-Newgrounds-Audio-Downloader.png)
-
-![設定画面](https://i.ibb.co/DzbvPz0/2020-08-24-16-45-48.png)
+*ちょっと待ってくれ・・・*

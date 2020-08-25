@@ -18,17 +18,17 @@ Or you just use the `.exe` file from [`NGAudioDownloader.zip`](NGAudioDownloader
 
 ## Let's get it started!
 
-### Common way
+### I'm a civilian
 
 You just download [`NGAudioDownloader.zip`](https://github.com/H1K0/NGAudioDownloader/raw/master/NGAudioDownloader.zip), extract it somewhere and run the `NGAudioDownloader.exe`.
 
 <big>※NOTE:</big> if you want this downloader working correctly **DO NOT move/delete** any files extracted from the archive!
 
-### Pythonist's way
+### I'm a pythonist
 
-You just download *the whole repository* and run `NGAudioDownloader.py`. That's all. :3
+You just [download the whole repository](https://github.com/H1K0/NGAudioDownloader/archive/master.zip) and run `NGAudioDownloader.py`. That's all. :3
 
-## What should I do?
+## What should I do then?
 
 It's easy as pie. You just run the downloader, enter your song ID and your file is being downloaded!
 
@@ -38,8 +38,6 @@ It's easy as pie. You just run the downloader, enter your song ID and your file 
 - `Alt + S` calls settings dialog
 - `F1` calls help
 
-### So, what's happening on the screen?
+## Is there any video guide?
 
-![Start screen shot](https://i.ibb.co/qr366Xb/2020-08-24-16-41-06-Newgrounds-Audio-Downloader.png)
-
-![Settings dialog](https://i.ibb.co/dkzb5jN/2020-08-24-16-41-14-Settings.png)
+*Just wait a bit...*
