@@ -6,7 +6,7 @@ You just use **this**.
 
 You can also read the [Russian README](README-RU.md) or [Japanese README](README-JP.md).
 
-## Requirements
+## So, what do I actually need?
 
 - ![(Python 3+)](https://img.shields.io/badge/Python-3+-blue.svg)
 - `PyQt5` library
@@ -14,19 +14,31 @@ You can also read the [Russian README](README-RU.md) or [Japanese README](README
 - `bs4` library
 - `click` library
 
-Or you just use the [`NGAudioDownloader.exe`](NGAudioDownloader.exe) so all you need is ![Windows XP+](https://img.shields.io/badge/Windows-XP+-brightgreen.svg).
+Or you just use the `.exe` file from [`NGAudioDownloader.zip`](NGAudioDownloader.zip) so all you need is ![Windows XP+](https://img.shields.io/badge/Windows-XP+-brightgreen.svg).
 
-## Usage
+## Let's get it started!
+
+### Common way
+
+You just download [`NGAudioDownloader.zip`](NGAudioDownloader.zip), extract it somewhere and run the `NGAudioDownloader.exe`.
+
+<big>※NOTE:</big> if you want this downloader working correctly **DO NOT move/delete** any files extracted from the archive!
+
+### Pythonist's way
+
+You just download *the whole repository* and run [`NGAudioDownloader.py`](NGAudioDownloader.py). That's all. :3
+
+## What should I do?
 
 It's easy as pie. You just run the downloader, enter your song ID and your file is being downloaded!
 
-### Shortcuts
+### Where should I press?
 
 - `Enter` starts download
 - `Alt + S` calls settings dialog
 - `F1` calls help
 
-### Screenshots
+### So, what's happening on the screen?
 
 ![Start screen shot](https://i.ibb.co/qr366Xb/2020-08-24-16-41-06-Newgrounds-Audio-Downloader.png)
 

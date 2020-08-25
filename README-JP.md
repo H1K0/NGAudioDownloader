@@ -1,12 +1,12 @@
 # [Newgrounds](https://newgrounds.com) Audio Downloader ![(Python 3+)](https://img.shields.io/badge/Python-3+-blue.svg) ![Windows XP+](https://img.shields.io/badge/Windows-XP+-brightgreen.svg)
 
-ま、Newgroundsと言えば、普通はオーディオページに結構見付かりやすいダウンロードボタンがあるけど、そのボタンのない奴もある。それも時々、素晴らしくて絶対にダウンロードしたいってゆ奴も出てくるんだ。そうなったらどうしろってんだ？
+ま、Newgroundsと言えば、普通はオーディオページに結構見付かりやすいダウンロードボタンがあるけど、そのボタンのない奴もある。それも時々、素晴らしくて絶対にダウンロードしたいーってゆ奴も出てくるよな。そうなったらどうしろってんだ？
 
-**これ**を使うんだ。
+**コイツ**を使うんだ。
 
-[英語](README.md)と[ロシア語](README-RU.md)のREADMEもある。
+後、[英語](README.md)と[ロシア語](README-RU.md)のREADMEもある。
 
-## 要求仕様
+## 必要な物とは？
 
 - ![(Python 3+)](https://img.shields.io/badge/Python-3+-blue.svg)
 - `PyQt5`ライブラリ
@@ -14,19 +14,31 @@
 - `bs4`ライブラリ
 - `click`ライブラリ
 
-それともただ![Windows XP+](https://img.shields.io/badge/Windows-XP+-brightgreen.svg)だけを持ってこの[exeちゃん](NGAudioDownloader.exe)を使う。
+それともただ![Windows XP+](https://img.shields.io/badge/Windows-XP+-brightgreen.svg)だけを持って、この[アーカイブ](NGAudioDownloader.zip)をダウンロードして、[exeちゃん](NGAudioDownloader.exe)を使って楽になってもいい。
 
-## 使用法
+## 早速始めたい！
 
-簡単なもんだ。コイツを実行して、NSI(*Newgrounds song ID*)を入力して、Enterボタン押して、ダウンロード開始だ！
+### 一般人の方(法)
 
-### ショートカットキー
+ま、[`NGAudioDownloader.zip`](NGAudioDownloader.zip)をダウンロードして、ソイツをどっかで解凍して、`NGAudioDownloader.exe`を実行させるだけ。
+
+<big>※注意：</big>コイツに時計のように正常に作動して欲しいってんなら、絶対に、アーカイブから抽出されたファイルを**移動／削除したりすんじゃねえぞ**！
+
+### Pythonistの方(法)
+
+ま、*リポジトリ全体*をダウンロードして、[`NGAudioDownloader.py`](NGAudioDownloader.py)を実行だ。はい、終了～！
+
+## 待って、これどうすんの？
+
+簡単なもんやろ。コイツを実行して、NSI(*Newgrounds song ID*)を入力して、`Enter`ボタン押して、ダウンロード開始だ！
+
+### どこ押したらいい？
 
 - `Enter`でダウンロード開始
 - `Alt + S`で設定画面を開く
 - `F1`でヘルプを読む
 
-### スクショ
+### で、画面はどうなってんだい？
 
 ![スタート画面](https://i.ibb.co/pJpVMRS/2020-08-24-16-45-40-Newgrounds-Audio-Downloader.png)
 
