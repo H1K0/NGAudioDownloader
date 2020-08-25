@@ -1,4 +1,6 @@
 __pycache__
 build*
+_dump
+*.exe
 *.spec
 /config.json
