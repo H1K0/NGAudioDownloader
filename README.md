@@ -40,4 +40,4 @@ It's easy as pie. You just run the downloader, enter your song ID and your file 
 
 ## Is there any video guide?
 
-*Just wait a bit...*
+Well, pythonists are considered already understanding how it all works, so here's the [video guide for civilians](https://yadi.sk/i/9krScj2BHcr3Rg).
